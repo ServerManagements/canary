@@ -5,13 +5,245 @@ local weapons = {
 		type = WEAPON_SWORD
 	},
 	{
+        -- Sanguine Bow
+        itemId = 43877,
+        type = WEAPON_DISTANCE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Paladin", true},
+            {"Royal Paladin", true}
+        }
+  },
+  {
+        -- Grand Sanguine Bow
+        itemId = 43878,
+        type = WEAPON_DISTANCE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Paladin", true},
+            {"Royal Paladin", true}
+        }
+  }, -- Paladin and Royal Paladin Crossbows
+  {
+        -- Sanguine Crossbow
+        itemId = 43879,
+        type = WEAPON_DISTANCE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Paladin", true},
+            {"Royal Paladin", true}
+        }
+  },
+  {
+        -- Grand Sanguine Crossbow
+        itemId = 43880,
+        type = WEAPON_DISTANCE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Paladin", true},
+            {"Royal Paladin", true}
+        }
+  },  --  Swords    
+	{
+        -- Sanguine Blade
+        itemId = 43864,
+        type = WEAPON_SWORD,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Grand Sanguine Blade
+        itemId = 43865,
+        type = WEAPON_SWORD,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Sanguine Razor
+        itemId = 43870,
+        type = WEAPON_SWORD,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Grand Sanguine Razor
+        itemId = 43871,
+        type = WEAPON_SWORD,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },    -- Clubs
+  {
+        -- Sanguine Bludgeon
+        itemId = 43872,
+        type = WEAPON_CLUB,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Grand Sanguine Bludgeon
+        itemId = 43873,
+        type = WEAPON_CLUB,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Sanguine Cudgel
+        itemId = 43866,
+        type = WEAPON_CLUB,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Grand Sanguine Cudgel
+        itemId = 43867,
+        type = WEAPON_CLUB,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },  -- Axes
+  {
+        -- Sanguine Hatchet
+        itemId = 43868,
+        type = WEAPON_AXE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Grand Sanguine Hatchet
+        itemId = 43869,
+        type = WEAPON_AXE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Sanguine Battleaxe
+        itemId = 43874,
+        type = WEAPON_AXE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },
+  {
+        -- Grand Sanguine Battleaxe
+        itemId = 43875,
+        type = WEAPON_AXE,
+        level = 100,
+        unproperly = true,
+        vocation = {
+            {"Knight", true},
+            {"Elite Knight", true}
+        }
+  },-- Sorcerer and Master Sorcerer Wands
+  {
+        -- Sanguine Coil
+        itemId = 43882,
+        type = WEAPON_WAND,
+        wandType = "Holy",
+		level = 100,
+		mana = 22,
+		damage = {890, 1400},
+        unproperly = true,
+        vocation = {
+            {"Sorcerer", true},
+            {"Master Sorcerer", true}
+        }
+  },
+  {
+        -- Grand Sanguine Coil
+        itemId = 43883,
+        type = WEAPON_WAND,
+        wandType = "holy",
+		level = 100,
+		mana = 40,
+		damage = {810, 1680},
+        unproperly = true,
+        vocation = {
+            {"Sorcerer", true},
+            {"Master Sorcerer", true}
+        }
+  },  -- Druid and Elder Druid Rods
+  {
+        -- Sanguine Rod
+        itemId = 43885,
+        type = WEAPON_WAND,
+        wandType = "holy",
+		level = 600,
+		mana = 40,
+		damage = {890, 1400},
+        unproperly = true,
+        vocation = {
+            {"Druid", true},
+            {"Elder Druid", true}
+        }
+  },
+  {
+        -- Grand Sanguine Rod
+        itemId = 43886,
+        type = WEAPON_WAND,
+        wandType = "holy",
+		level = 600,
+		mana = 40,
+		damage = {810, 1680},
+        unproperly = true,
+        vocation = {
+            {"Druid", true},
+            {"Elder Druid", true}
+        }
+  },
+	{
 		-- naga rod
 		itemId = 39163,
 		type = WEAPON_WAND,
 		wandType = "ice",
 		level = 250,
 		mana = 22,
-		damage = {90, 110},
+		damage = {390, 510},
 		unproperly = true,
 		vocation = {
 			{"Druid", true},
@@ -25,7 +257,7 @@ local weapons = {
 		wandType = "energy",
 		level = 250,
 		mana = 21,
-		damage = {90, 120},
+		damage = {390, 520},
 		unproperly = true,
 		vocation = {
 			{"Sorcerer", true},
@@ -235,7 +467,7 @@ local weapons = {
 		wandType = "earth",
 		level = 150,
 		mana = 19,
-		damage = {80, 100},
+		damage = {80, 600},
 		vocation = {
 			{"Sorcerer", true},
 			{"Master Sorcerer"}
@@ -248,7 +480,7 @@ local weapons = {
 		wandType = "ice",
 		level = 150,
 		mana = 19,
-		damage = {80, 100},
+		damage = {80, 600},
 		vocation = {
 			{"Druid", true},
 			{"Elder Druid"}
@@ -327,7 +559,7 @@ local weapons = {
 		wandType = "ice",
 		level = 220,
 		mana = 21,
-		damage = {89, 109},
+		damage = {489, 609},
 		vocation = {
 			{"Sorcerer", true},
 			{"Master Sorcerer"}
@@ -340,7 +572,7 @@ local weapons = {
 		wandType = "ice",
 		level = 270,
 		mana = 20,
-		damage = {85, 105},
+		damage = {485, 605},
 		vocation = {
 			{"Druid", true},
 			{"Elder Druid"}
@@ -364,7 +596,7 @@ local weapons = {
 		wandType = "ice",
 		level = 400,
 		mana = 21,
-		damage = {98, 118},
+		damage = {498, 818},
 		vocation = {
 			{"Druid", true},
 			{"Elder Druid"}
@@ -377,7 +609,7 @@ local weapons = {
 		wandType = "death",
 		level = 400,
 		mana = 21,
-		damage = {100, 120},
+		damage = {500, 820},
 		vocation = {
 			{"Sorcerer", true},
 			{"Master Sorcerer"}
@@ -527,7 +759,7 @@ local weapons = {
 		wandType = "earth",
 		level = 220,
 		mana = 21,
-		damage = {70, 110},
+		damage = {370, 610},
 		vocation = {
 			{"Druid", true},
 			{"Elder Druid"}
@@ -540,7 +772,7 @@ local weapons = {
 		wandType = "energy",
 		level = 270,
 		mana = 22,
-		damage = {94, 100},
+		damage = {394, 620},
 		vocation = {
 			{"Sorcerer", true},
 			{"Master Sorcerer"}
@@ -793,7 +1025,7 @@ local weapons = {
 		wandType = "energy",
 		level = 300,
 		mana = 21,
-		damage = {86, 102},
+		damage = {486, 702},
 		vocation = {
 			{"Sorcerer", true},
 			{"Master Sorcerer"}
@@ -806,7 +1038,7 @@ local weapons = {
 		wandType = "earth",
 		level = 300,
 		mana = 20,
-		damage = {87, 101},
+		damage = {487, 701},
 		vocation = {
 			{"Druid", true},
 			{"Elder Druid"}

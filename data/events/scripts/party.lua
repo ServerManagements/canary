@@ -96,7 +96,7 @@ function Party:refreshHazard()
 end
 
 function Party:onShareExperience(exp)
-	local sharedExperienceMultiplier = 1.20 --20%
+	local sharedExperienceMultiplier = 5.20 --120%
 	local vocationsIds = {}
 
 	local vocationId = self:getLeader():getVocation():getBase():getId()
@@ -113,7 +113,7 @@ function Party:onShareExperience(exp)
 
 	local size = #vocationsIds
 	if size > 1 then
-		sharedExperienceMultiplier = 1.0 + ((size * (5 * (size - 1) + 10)) / 100)
+		sharedExperienceMultiplier = 4.0 + ((size * (5 * (size - 1) + 10)) / 100)
 	end
 
 	return (exp * sharedExperienceMultiplier) / (#self:getMembers() + 1)

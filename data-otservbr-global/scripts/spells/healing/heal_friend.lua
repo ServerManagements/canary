@@ -5,12 +5,8 @@ combat:setParameter(COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 combat:setParameter(COMBAT_PARAM_AGGRESSIVE, false)
 
 function onGetFormulaValues(player, level, magicLevel)
-	local min = (level * 0.2 + magicLevel * 10) + 3
-	local max = (level * 0.2 + magicLevel * 14) + 5
-	local grade = player:upgradeSpellsWORD("Nature's Embrace")
-	if grade >= WHEEL_GRADE_UPGRADED then
-		return min * 1.1, max * 1.1
-	end
+	local min = (level * 0.2 + magicLevel * 6) + 3
+	local max = (level * 0.2 + magicLevel * 12) + 5
 	return min, max
 end
 
@@ -27,7 +23,6 @@ spell:name("Heal Friend")
 spell:words("exura sio")
 spell:group("healing")
 spell:vocation("druid;true", "elder druid;true")
-spell:castSound(SOUND_EFFECT_TYPE_SPELL_HEAL_FRIEND)
 spell:id(84)
 spell:cooldown(1000)
 spell:groupCooldown(1000)
@@ -38,5 +33,5 @@ spell:hasParams(true)
 spell:hasPlayerNameParam(true)
 spell:allowOnSelf(false)
 spell:isAggressive(false)
-spell:isPremium(true)
+spell:isPremium(false)
 spell:register()

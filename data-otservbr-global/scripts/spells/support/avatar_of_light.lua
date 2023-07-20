@@ -21,7 +21,7 @@ function spell.onCastSpell(creature, variant)
 	elseif grade >= WHEEL_GRADE_UPGRADED then
 		cooldown = 90
 	elseif grade >= WHEEL_GRADE_REGULAR then
-		cooldown = 120
+		cooldown = 10
 	end
 	local duration = 15000
 	condition:setTicks(duration)
@@ -44,7 +44,7 @@ spell:level(1)
 spell:mana(800)
 spell:isPremium(true)
 spell:cooldown(1000) -- Cooldown is calculated on the casting
-spell:groupCooldown(2 * 1000)
+spell:groupCooldown(1 * 1000)
 spell:vocation("paladin;true", "royal paladin;true")
 spell:hasParams(true)
 spell:isAggressive(false)

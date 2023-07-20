@@ -76,8 +76,7 @@ monster.loot = {
 	{name = "small sapphire", chance = 48000, maxCount = 3},
 	{name = "stone skin amulet", chance = 54000},
 	{id = 31369, chance = 6500}, -- gryphon mask
-	{name = "fire axe", chance = 34000},
-	{id = 31557, chance = 520} -- blister ring
+	{name = "fire axe", chance = 34000},	
 }
 
 monster.attacks = {

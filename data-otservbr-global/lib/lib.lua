@@ -13,3 +13,12 @@ dofile(DATA_DIRECTORY .. '/lib/others/load.lua')
 
 -- Quests library
 dofile(DATA_DIRECTORY .. '/lib/quests/quest.lua')
+
+-- Addon Doll library
+dofile(DATA_DIRECTORY .. '/lib/others/addon_doll_lib.lua')
+
+-- Mount Doll library
+dofile(DATA_DIRECTORY .. '/lib/others/mount_doll_lib.lua')
+
+-- Tasks Library
+dofile(DATA_DIRECTORY .. "/lib/others/task_lib.lua")

@@ -99,8 +99,7 @@ monster.loot = {
 	{name = "magma coat", chance = 6000},
 	{id = 281, chance = 12000}, -- giant shimmering pearl (green)
 	{name = "violet gem", chance = 6000},
-	{name = "magma monocle", chance = 3000},
-	{id = 31557, chance = 3000}, -- blister ring
+	{name = "magma monocle", chance = 3000}
 	{name = "blue gem", chance = 12000},
 	{name = "magma amulet", chance = 12000},
 	{name = "gold ingot", chance = 9000},
